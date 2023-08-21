@@ -1,0 +1,199 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.global-msg {
+    background-color: rgba(108, 97, 228, 0.745);
+}
+
+.social > i {
+    font-size: 2rem;
+}
+
+.social > i:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.msg {
+    font-size: 2rem;
+}
+
+.global-msg > div, .top-menu {
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(94, 63, 90);
+}
+
+/* NAV BAR  */
+.nav-bar {
+    background-color: rgba(133, 112, 216, 0.672);
+}
+
+.menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 1.3rem;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: forestgreen;
+    font-size: 1.2rem;
+}
+
+/* HERO  */
+
+.hero {
+    background-image: url("./manik-shrestha-VuQWBqEcUvQ-unsplash.jpg");
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content >h1::first-letter{
+    font-size: 2.8rem;
+    color: #fda0af;
+
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 174, 194);
+}
+
+.hero-content {
+    background-color: rgba(62, 60, 97, 0.646);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+/* MAIN CONTENT  */
+
+.main {
+    display: flex;
+    margin-top: 25px;
+}
+
+.main-content {
+    width: 66%;
+}
+
+.side-links {
+    width: 34%;
+}
+
+article {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(241, 222, 255, 0.672);
+
+}
+
+.art-image{
+    width: 250px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: end;
+}
+
+button  {
+    padding: 8px 15px;
+    background-color: rgb(220, 25, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+/* SIDE LINKS  */
+
+
+
+.read-by-country, .read-by-date {
+    padding: 2rem;
+    margin: 2rem;
+    background-color:rgba(239, 212, 251, 0.672);
+    border-radius: 5px;
+}
+
+/* .read-by.date {
+    background-color: rgba(133, 112, 216, 0.672);
+} */
+
+/* RECOMMENDED SECTION  */
+
+.rec{
+    background-color: #f8e0f8;
+    padding: 3rem 0;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.card{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 4px 16px 7px rgba(0,0,0,0.3); grey;
+    border-radius: 10px;
+}
+
+.subs {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: crimson;
+}
+
+.btnn  {
+    padding: 8px 15px;
+    background-color: rgb(210, 82, 82);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+}
